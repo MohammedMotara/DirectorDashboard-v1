@@ -18,14 +18,22 @@ Software/ tech:-
 	- Hosting via firebase
 
 
-Wireframes 
-
+Wire frames 
 	- See notepad 
+
 
 Component Tree 
 
 	- App
-		- 
+		- Nav Bar
+		- Personal
+			- Company Overview Container
+				- Logo
+				- Company Info
+			- Duties and Obligations
+				- Title/Role
+				- Content(The Law) Container
+					- The Law
 
 
 Content 
@@ -36,7 +44,7 @@ Content
 
 Functionality 
 
-	- Visually collapsable component
+	- Visually collapsible component
 	- expandable elements when clicking on a component
 	- Opacity and colour changes when hovering over components
 	- Creating graphs that give insights into the amount of cases an issue has arisen
@@ -44,4 +52,4 @@ Functionality
 Routing
 
 	- Set-up routing for the project
-	- Create two pages: Profile and example page
+	- Create two pages: Home Page and Personal page
