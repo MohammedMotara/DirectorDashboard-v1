@@ -1,0 +1,8 @@
+{
+  "name": "DirectorDashboard-v1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MohammedMotara/DirectorDashboard-v1.git",
+  "author": "Mohammed Motara",
+  "license": "MIT"
+}

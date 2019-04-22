@@ -1,0 +1,47 @@
+DESIGN DOCUMENT - Trial Dashboard (v1)
+
+
+
+
+FRONTEND - The Dashboard
+	
+Software/ tech:- 
+
+	- React
+	- React Routing
+	- Redux
+	- TypeScript
+	- TSLint
+	- D3.js
+
+	- Travis CI
+	- Hosting via firebase
+
+
+Wireframes 
+
+	- See notepad 
+
+Component Tree 
+
+	- App
+		- 
+
+
+Content 
+
+	- Download resources from practical Law and Hard code for first trial of the product.
+	- Limit trial to a single section of the Companies Act.
+
+
+Functionality 
+
+	- Visually collapsable component
+	- expandable elements when clicking on a component
+	- Opacity and colour changes when hovering over components
+	- Creating graphs that give insights into the amount of cases an issue has arisen
+	
+Routing
+
+	- Set-up routing for the project
+	- Create two pages: Profile and example page
