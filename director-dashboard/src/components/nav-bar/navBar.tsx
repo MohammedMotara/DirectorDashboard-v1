@@ -13,14 +13,30 @@ class NavigationBar extends React.Component<IProps, IState> {
     // state = { :  }
     render() { 
         return ( 
-            
             <nav className={styles.navBar}>
-                <ul>
-                    <li>Home</li>
-                    <li>Personal</li>
-                    <li>Profile</li>
+                <div>
+                    <div className={styles.logoContainer}>
+                        <div className={styles.logo} />
+                    </div>
+
+                    <div className={styles.searchBarContainer}>
+                        <input className={styles.searchBar}/>
+                    </div>
+                </div>
+
+                <ul className={styles.buttonContainer}>
+                    <li className={styles.navButton}>Overview</li>
+                    <li className={styles.navButton}>Personal</li>
+                    <li className={styles.navButton}>Profile</li>
                 </ul>
-                <div />
+
+                <div className={styles.settingsSection}>
+                    <div className={styles.notificationButton} />
+                    <div className={styles.profileButton}>
+                        <div className={styles.profilePicture} />
+                    </div>
+                </div>
+
             </nav>
         );
     }

@@ -1,5 +1,86 @@
 .navBar {
     border: red solid 3px;
-    height: 20%;
-}
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 
+    div {
+        width: 35%;
+        height: 100%;
+        display: flex;
+
+        .logoContainer {
+            height: 100%;
+            width: 50px;
+            border: pink solid 1px;
+            
+            .logo {
+                height: 60%;
+                width: 40px;
+                margin: 10px;
+                border-radius: 50%;
+                border: red solid 1px;
+            }
+        }
+
+        .searchBarContainer {
+            height: 100%;
+            width: 80%;
+            border: pink solid 1px;
+
+            .searchBar {
+                height: 60%;
+                width: 100% ;
+                border: blue solid 1px;
+                margin: 8px;
+            }
+        }
+    }
+
+    .buttonContainer {
+        border: blue solid 1px;
+        height: 100%;
+        font-size: 12px;
+
+        .navButton {
+            list-style-type: none;
+            display: inline-block;
+            text-align: center;
+            margin-top: 15px;
+            margin-right: 15px;
+            width: 100px;
+            border: pink solid 1px;
+        }
+    }
+
+    .settingsSection {
+        height: 100%;
+        width: 120px;
+        margin-left: auto;
+        border: blue solid 1px;
+        display: flex;
+        justify-content: space-between;
+
+        .notificationButton {
+            height: 100%;
+            width: 45%;
+            border: red solid 1px;
+        }
+
+        .profileButton {
+            height: 100%;
+            width: 45%;
+            border: red solid 1px;
+            
+            .profilePicture {
+                height: 60%;
+                width: 60%;
+                margin-top: 10px;
+                margin-left: 10px;
+                border-radius: 50%;
+                border: red solid 1px;
+            }
+        }
+    }
+}
