@@ -1,5 +1,6 @@
 import * as React from 'react';
 import styles from './navBar.module.scss';
+import CompanyOverview from '../companyOverview/companyOverview';
 
 export interface IProps {
     
@@ -31,12 +32,15 @@ class NavigationBar extends React.Component<IProps, IState> {
                 </ul>
 
                 <div className={styles.settingsSection}>
-                    <div className={styles.notificationButton} />
+
+                    <div className={styles.notificationButton} >
+                        <div className={styles.notificationImage} />
+                    </div>
                     <div className={styles.profileButton}>
                         <div className={styles.profilePicture} />
                     </div>
-                </div>
 
+                </div>
             </nav>
         );
     }

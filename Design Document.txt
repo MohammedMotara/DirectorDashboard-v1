@@ -1,10 +1,48 @@
 DESIGN DOCUMENT - Trial Dashboard (v1)
 
+Author: Mohammed Motara
+Last Updated: 23rd April 2019
 
+Overview
 
+The following design document seeks to detail all of the information concerning the production of a director dashboard. This 
+director dashboard is a single cog within a much larger product. It's sole purpose is to illustrate the utility tech can have
+on the law. 
+
+The dashboard will be tailored ONLY to company directors at present. At any one point, a director can log into the app and view
+information about his role. The user will be able to access information concerning his rights and obligations as a director.
+Should the user seek to access further information about an their right/obligation, the app will have a feature where the user can
+click on the right/obligation and get a breakdown of the relevant article. This will include graphs/charts which show recent activity of
+the article being disputed etc. THIS WILL ALL BE IN LAYMAN TERMS.
+
+Context: The Problem
+
+Legal advice is inaccessible irrespective of the task. Not only does this financially bar individuals from accessing advice, 
+but it also puts business owners at risk of being taken advantage of, due to a lack of knowledge. For a director in a start-up this 
+can be make or break. Equally, a lack of understanding around their obligations can land them into trouble in a variety of areas ranging
+from regulators to employees of the company. In both cases, a director seeking to access legal advice the current way is in-efficient. 
+The director has to take time out of his/her day to speak to a legal professional, costing in terms of time and finances. This product
+aims to speed up this process, by giving the user intuitive legal advice on the app. It takes the law, and strips it of the legal jargon.
+
+Milestones
+
+Start Date: 22nd July 2019
+
+Milestone 1 - Outlines of components 
+Milestone 2 - Styling of components
+Milestone 3 - Hard coding of data
+Milestone 4 - functionality between components
+
+Principles to be applied when programming:
+	- Defensive programming
+
+		- 	Go through all possible outcomes of the code.
+		-	Print out useful information in each path.
+		-	Make sure that there is a path through the code for all possible outcomes.
+		-	Assume that the user/and or programmer is not going to give you the correct piece of information/ there’s an error in the code.
+		-	Catch the problem, rather than have the programme go wrong and not know.
 
 FRONTEND - The Dashboard
-	
 Software/ tech:- 
 
 	- React
@@ -21,8 +59,7 @@ Software/ tech:-
 Wire frames 
 	- See notepad 
 
-
-Component Tree 
+Component Tree (WILL BE CONTINUOUSLY UPDATED)
 
 	- App
 		- Nav Bar
@@ -42,13 +79,25 @@ Content
 	- Limit trial to a single section of the Companies Act.
 
 
-Functionality 
+Functionality Of Components
 
-	- Visually collapsible component
-	- expandable elements when clicking on a component
-	- Opacity and colour changes when hovering over components
-	- Creating graphs that give insights into the amount of cases an issue has arisen
+	- App
+		- Nav Bar
+		- Page Info
+		- Personal
+			- Company Overview Container
+				- Logo
+				- Company Info
+			- Duties and Obligations
+				- Title/Role
+				- Content(The Law) Container
+					- The Law
 	
+- Visually collapsible component
+- expandable elements when clicking on a component
+- Opacity and colour changes when hovering over components
+- Creating graphs that give insights into the amount of cases an issue has arisen
+
 Routing
 
 	- Set-up routing for the project
