@@ -1,5 +1,5 @@
 import * as React from 'react';
-// import styles from './pageInfoBanner.modules.sass';
+// import styles from './personalRoleBanner.modules.sass';
 
 // export interface IProps {
     
@@ -9,7 +9,7 @@ import * as React from 'react';
     
 // }
  
-// class PageInfoBanner extends React.Component<IProps, IState> {
+// class PersonalRoleBanner extends React.Component<IProps, IState> {
 //     // state = { :  }
 //     render() { 
 //         return ( 
@@ -21,4 +21,4 @@ import * as React from 'react';
 //     }
 // }
  
-// export default PageInfoBanner;
+// export default PersonalRoleBanner;

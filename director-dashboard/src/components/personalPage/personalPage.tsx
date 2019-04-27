@@ -17,7 +17,7 @@ class PersonalPage extends React.Component<IProps, IState> {
         return (  
             <div >
                 <NavigationBar />
-                <CompanyOverview />
+                {/* <CompanyOverview /> */}
             </div>
         );
     }
