@@ -17,6 +17,14 @@ $border-radius-weight: 2px;
 $border-radius-button: 25px;
 $font-headings: "nunito", sans-serif;
 
+
+// Fonts 
+
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+$primary-font: 'Oxygen', sans-serif;
+
+
 //inheritance
 %heading {
   letter-spacing: 6px;
@@ -31,7 +39,7 @@ $font-headings: "nunito", sans-serif;
   padding: 0;
   box-sizing: border-box;
   font-size: 12pt;
-  font-family: "arial";
+  font-family: $primary-font;
 }
 
 label {

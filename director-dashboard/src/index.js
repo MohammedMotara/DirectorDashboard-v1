@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-import NavigationBar from './components/nav-bar/navBar';
 import * as serviceWorker from './serviceWorker';
 import CompanyOverview from './components/companyOverview/companyOverview';
 import PersonalPage from './components/personalPage/personalPage';
