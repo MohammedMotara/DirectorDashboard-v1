@@ -1,12 +1,11 @@
 @import '../../assets/variables.scss';
 
-.companyOverviewContainer {
+.mainContent {
     height: 500px;
-    width: 25vw;
+    width: 60vw;
     display: inline-block;
-    float: right;
-    margin-right: $component-side-margin;
+    background: $primary-box-color;
     margin-top: $base-margin *1.5;
-    background-color: $primary-box-color;
+    margin-left: $component-side-margin;
     box-shadow: $uniform-box-shadow;
 }

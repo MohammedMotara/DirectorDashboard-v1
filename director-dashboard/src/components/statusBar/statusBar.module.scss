@@ -1,0 +1,13 @@
+@import '../../assets//variables.scss';
+
+.statusBar {
+    width: 90vw;
+    margin: auto;
+
+    .pageName {
+        vertical-align: center;
+        font-family: $heading-font;
+        font-weight: $text-weight;
+    }
+
+}

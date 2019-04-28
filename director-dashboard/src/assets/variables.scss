@@ -1,78 +1,55 @@
-//variables
-$primary-color-1: #37234f;
-$primary-color-2: #003864;
-$primary-color-3: #b02062;
-$primary-color-4: #65449b;
-$primary-color-5: #6ecbd3;
-$primary-text-color: #ffffff;
-$secondary-text-color: #000000;
+// Color Scheme
+$primary-color: #003864;
+$secondary-color: #631C24;
+$tertiary-color: #638B8B; 
+$quaternary-color: #F1C890;
 
+// Text Colors
+$primary-text-color: #000000;
+
+// Fonts 
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+$text-font: 'Oxygen', sans-serif;
+$text-weight: 300;
+
+$heading-font: 'Raleway', sans-serif;
+$sub-heading-weight: 400;
+$section-heading-weight: 700;
+
+// Padding and Margins
+$component-side-margin: 5vw;
+$base-padding: 15px;
+$base-margin: 15px;
+
+
+// Box stylings
+$primary-box-color: white;
+
+
+// Effects and Animations
 $uniform-box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
 $hover-box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 
-$base-padding: 15px;
-$base-margin: 15px;
-$border-radius: 15px;
-$border-radius-weight: 2px;
-$border-radius-button: 25px;
-$font-headings: "nunito", sans-serif;
-
-
-// Fonts 
-
-@import url('https://fonts.googleapis.com/css?family=Oxygen');
-
-$primary-font: 'Oxygen', sans-serif;
-
-
 //inheritance
-%heading {
-  letter-spacing: 6px;
-  size: 1rem;
-  color: $primary-text-color;
-  font-family: $font-headings;
-}
 
-//global
+
+//global styles 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 12pt;
-  font-family: $primary-font;
 }
 
-label {
-  margin-bottom: $base-margin/3;
+body {
+  margin-top: 15vh;
+  background-color: #F4F4F5;
+  font-weight: $text-weight;
+  font-family: $text-font;
+  font-size: 13px;
 }
 
-// //animations
-// @keyframes active-focus-light {
-//   0% {
-//     border: $primary-color-4 solid 1pt;
-//     box-shadow: 0px 0px 6px 3px $primary-color-5;
-//   }
-//   50% {
-//     border: $primary-color-5 solid 1pt;
-//     box-shadow: 0px 0px 20px 10px $primary-color-4;
-//   }
-//   100% {
-//     border: $primary-color-4 solid 1pt;
-//     box-shadow: 0px 0px 6px 3px $primary-color-5;
-//   }
-// }
+// animations
 
-// //inheritance
-// %focus-light {
-//   border: solid 1pt transparent;
-//   &:hover {
-//     border: $primary-color-5 solid 1pt;
-//     box-shadow: 0px 0px 6px 3px $primary-color-5;
-//     transition-duration: 0.1s;
-//   }
-//   &:focus {
-//     animation-name: active-focus-light;
-//     animation-duration: 5s;
-//     animation-iteration-count: infinite;
-//   }
-// }
+// Media Queries

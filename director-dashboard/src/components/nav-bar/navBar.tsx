@@ -1,6 +1,9 @@
 import * as React from 'react';
 import styles from './navBar.module.scss';
 import CompanyOverview from '../companyOverview/companyOverview';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBell, faUser, faBook } from '@fortawesome/free-solid-svg-icons'
+
 
 export interface IProps {
     
@@ -17,7 +20,7 @@ class NavigationBar extends React.Component<IProps, IState> {
             <nav className={styles.navBar}>
                 <div>
                     <div className={styles.logoContainer}>
-                        <div className={styles.logo} />
+                        <FontAwesomeIcon className={styles.logo} icon={faBook}/>
                     </div>
 
                     <div className={styles.searchBarContainer}>
@@ -26,18 +29,19 @@ class NavigationBar extends React.Component<IProps, IState> {
                 </div>
 
                 <ul className={styles.buttonContainer}>
-                    <li className={styles.navButton}>Overview</li>
-                    <li className={styles.navButton}>Personal</li>
-                    <li className={styles.navButton}>Profile</li>
+                    <li className={styles.navButton}><a>Overview</a></li>
+                    <li className={styles.navButton}><a>Strategy</a></li>
+                    <li className={styles.navButton}><a>Personal</a></li>
+                    <li className={styles.navButton}><a>Calendar</a></li>
+                    <li className={styles.navButton}><a>Profile</a></li>
                 </ul>
 
                 <div className={styles.settingsSection}>
-
                     <div className={styles.notificationButton} >
-                        <div className={styles.notificationImage} />
+                        <FontAwesomeIcon className={styles.notificationIcon} icon={faBell} />
                     </div>
                     <div className={styles.profileButton}>
-                        <div className={styles.profilePicture} />
+                        <FontAwesomeIcon className={styles.profilePicture} icon={faUser} />
                     </div>
 
                 </div>

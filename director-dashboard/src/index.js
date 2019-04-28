@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
 import * as serviceWorker from './serviceWorker';
-import CompanyOverview from './components/companyOverview/companyOverview';
 import PersonalPage from './components/personalPage/personalPage';
+// import { library } from "@fortawesome/fontawesome-svg-core";
+// import { fab } from "@fortawesome/free-brands-svg-icons";
+// import {
+//   faBell,
+//   faUser,
+//   faBook
+// } from "@fortawesome/free-solid-svg-icons";
 
 ReactDOM.render(<PersonalPage />, document.getElementById('root'));
 
