@@ -1,5 +1,7 @@
 import * as React from 'react';
 import styles from './companyOverview.module.scss';
+import CompanyLogo from '../companyLogo/companyLogo';
+import CompanyOverviewInformation from '../companyOverviewInformation/companyOverviewInformation';
 
 export interface IProps {
     
@@ -13,11 +15,10 @@ class CompanyOverview extends React.Component<IProps, IState> {
     // state = { :  }
     render() { 
         return (  
-                <div className={styles.companyOverviewContainer}>
-                    <div className={styles.companyLogo}/>
-                    <div className={styles.companyInformation}/> 
-                    {/* Need to make the company information its own container, also need to map through dynamic data within that component*/}
-                </div>
+            <div className={styles.companyOverviewContainer}>
+                <CompanyLogo />
+                <CompanyOverviewInformation />
+            </div>
         );
     }
 }
