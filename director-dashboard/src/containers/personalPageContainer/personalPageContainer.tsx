@@ -9,11 +9,15 @@ export interface IProps {
 }
  
 export interface IState {
-    role: string,
+    role: string;
+    statusBar: string
 }
  
 class PersonalPageContainer extends React.Component<IProps, IState> {
-    state = { role: "ggg" }
+    state = { 
+        role: "ggg",
+        statusBar: "Personal - Dashboard"
+    }
 
     public roleChange = () => {
         this.setState({
@@ -21,12 +25,20 @@ class PersonalPageContainer extends React.Component<IProps, IState> {
         });
     };
 
+    public updateStatusBar = () => {
+        this.setState({
+            statusBar: "Personal Dashbaord - Director"
+        })
+    } 
+
     render() { 
         return (  
             <div >
                 <NavigationBar />
-                <StatusBar />
+                <StatusBar updateBar={this.updateStatusBar} statusBar={this.state.statusBar} />
+
                 <MainContent updateRole={this.roleChange} role={this.state.role} />
+
                 <CompanyOverview />
             </div>
         );
