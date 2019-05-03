@@ -1,8 +1,14 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React, { Component } from "react";
+import styles from "./app.module.css";
+import { Provider } from "react-redux";
+import PageContainer from './containers/personalPageContainer/personalPageContainer';
 
-export interface Props {
-  
+class App extends Component {
+  public render() {
+    return (
+       <PageContainer />
+    );
+  }
 }
- 
-export interface State {}
+
+export default App;
