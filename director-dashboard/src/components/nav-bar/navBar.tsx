@@ -3,10 +3,11 @@ import styles from './navBar.module.scss';
 import CompanyOverview from '../companyOverview/companyOverview';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBell, faUser, faBook } from '@fortawesome/free-solid-svg-icons'
+import Dropdown from './dropdown';
 
 
 export interface IProps {
-    
+    openMenu: () => void;
 }
  
 export interface IState {
@@ -29,11 +30,11 @@ class NavigationBar extends React.Component<IProps, IState> {
                 </div>
 
                 <ul className={styles.buttonContainer}>
-                    <li className={styles.navButton}><a>Overview</a></li>
-                    <li className={styles.navButton}><a>Strategy</a></li>
-                    <li className={styles.navButton}><a>Personal</a></li>
-                    <li className={styles.navButton}><a>Calendar</a></li>
-                    <li className={styles.navButton}><a>Profile</a></li>
+                    <li className={styles.navButton} onClick={this.props.openMenu}><a>Overview</a></li>
+                    <li className={styles.navButton} onClick={this.props.openMenu}><a>Strategy</a></li>
+                    <li className={styles.navButton} onClick={this.props.openMenu}><a>Personal</a></li>
+                    <li className={styles.navButton} onClick={this.props.openMenu}><a>Calendar</a></li>
+                    <li className={styles.navButton} onClick={this.props.openMenu}><a>Profile</a></li>
                 </ul>
 
                 <div className={styles.settingsSection}>
