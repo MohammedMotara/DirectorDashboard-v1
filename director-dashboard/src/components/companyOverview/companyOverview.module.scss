@@ -1,9 +1,8 @@
 @import '../../assets/variables.scss';
 
 .companyOverviewContainer {
-    height: 500px;
+    height: 65vh;
     width: 25vw;
-    display: inline-block;
     float: right;
     margin-right: $component-side-margin;
     margin-top: $base-margin *1.5;

@@ -29,7 +29,7 @@ export interface IGeneralState {
 }
 
 const initialState: IGeneralState = {
-  menuOpen: true
+  menuOpen: false
 };
 
 

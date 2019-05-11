@@ -12,16 +12,19 @@ export interface IState {
  
 class Dropdown extends React.Component<IProps, IState> {
     state = { 
-        menuOpen: this.props.menuOpen 
+        menuOpen: this.props.menuOpen
+    }
+
+    closeDropdown () {
+        this.setState({
+            menuOpen: !this.props.menuOpen,
+        })
     }
 
     render() { 
 
-        const hideMenuStyles = 
-        this.props.menuOpen ? { display: "none"} : {display: ""};
-
         return ( 
-            <section className={styles.dropdown} style={hideMenuStyles}>
+            <section className={this.props.menuOpen ?  styles.dropdown: "none" }>
                 <ul className={styles.allLinks}>
                     <li>A</li>
                     <li>B</li>

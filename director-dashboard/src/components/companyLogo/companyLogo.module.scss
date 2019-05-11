@@ -1,1 +1,12 @@
-@import '../../assets/variables.scss'
+@import '../../assets/variables.scss';
+
+.companyLogo {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 50%;
+    background-image: url('../../assets/images/exampleLogo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
