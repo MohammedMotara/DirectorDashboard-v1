@@ -1,10 +1,32 @@
 @import '../../assets/variables.scss';
 
 .companyInformation {
-    // border: red solid 1px;
     height: 50%;
-    width: 90%;
+    width: 80%;
     margin-top: 5%;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+
+    .box {
+        width: 80%;
+        margin: auto;
+        
+        .keyCategories {
+            font-size: 16px;
+            font-weight: $section-heading-weight;
+            text-align: center;
+            padding: 5px;
+            color: $secondary-color;
+        }
+
+        .keyInfo {
+            font-weight: $text-weight;
+            font-size: 14px;
+            padding: 5px;
+            text-align: center;
+        }
+
+    }
+    
+
 }

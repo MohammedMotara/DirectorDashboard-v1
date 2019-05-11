@@ -3,8 +3,7 @@ import styles from './companyOverviewInformation.module.scss';
 
 
 export interface IProps {
-    companyNameProp: string;
-    updateCompInfo: () => void
+
 }
  
 export interface IState {
@@ -13,14 +12,24 @@ export interface IState {
  
 class CompanyOverviewInformation extends React.Component<IProps, IState> {
     state = { 
-        company: this.props.companyNameProp  
+
     }
 
     render() { 
         return ( 
-            <div className={styles.companyInformation}>
-                <h2 onClick={this.props.updateCompInfo}> {this.props.companyNameProp}</h2>
-            </div>
+            <article className={styles.companyInformation}>
+                <section className={styles.box}>
+                    <h2 className={styles.keyCategories}>Status</h2>
+                    <h2 className={styles.keyInfo}>Active</h2>
+                    <h2 className={styles.keyCategories}>Registered Office Address</h2>
+                    <h2 className={styles.keyInfo}>London</h2>
+                    <h2 className={styles.keyCategories}>Incorporated on</h2>
+                    <h2 className={styles.keyInfo}>29th February 2013</h2>
+                    <h2 className={styles.keyCategories}>Company Type</h2>
+                    <h2 className={styles.keyInfo}>Private Limited</h2>
+                </section>
+
+            </article>
          );
     }
 

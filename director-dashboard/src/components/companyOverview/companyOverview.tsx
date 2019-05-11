@@ -27,7 +27,7 @@ class CompanyOverview extends React.Component<IProps, IState> {
         return (  
             <div className={styles.companyOverviewContainer}>
                 <CompanyLogo />
-                <CompanyOverviewInformation updateCompInfo={this.handleOnClick} companyNameProp={this.state.company}  />
+                <CompanyOverviewInformation />
             </div>
         );
     }
