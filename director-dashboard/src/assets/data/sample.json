@@ -1,0 +1,61 @@
+{
+    "type": "ltd",
+    "accounts": {
+      "next_made_up_to": "2018-12-31",
+      "next_due": "2019-09-30",
+      "overdue": false,
+      "accounting_reference_date": {
+        "day": "31",
+        "month": "12"
+      },
+      "last_accounts": {
+        "period_end_on": "2017-12-31",
+        "type": "full",
+        "period_start_on": "2017-01-01",
+        "made_up_to": "2017-12-31"
+      },
+      "next_accounts": {
+        "period_end_on": "2018-12-31",
+        "period_start_on": "2018-01-01",
+        "overdue": false,
+        "due_on": "2019-09-30"
+      }
+    },
+    "company_number": "06470842",
+    "last_full_members_list_date": "2016-01-11",
+    "jurisdiction": "england-wales",
+    "registered_office_address": {
+      "country": "England",
+      "postal_code": "BS1 6NA",
+      "address_line_2": "Portwall Lane",
+      "address_line_1": "Portwall Place",
+      "locality": "Bristol"
+    },
+    "undeliverable_registered_office_address": false,
+    "sic_codes": [
+      "78200"
+    ],
+    "company_name": "OPUS RECRUITMENT SOLUTIONS LIMITED",
+    "date_of_creation": "2008-01-11",
+    "has_been_liquidated": false,
+    "etag": "2c8d8e75e21ad73f26f9e6a2a9e033a0f6d6e69a",
+    "has_insolvency_history": false,
+    "has_charges": true,
+    "company_status": "active",
+    "confirmation_statement": {
+      "overdue": false,
+      "next_made_up_to": "2020-01-11",
+      "next_due": "2020-01-25",
+      "last_made_up_to": "2019-01-11"
+    },
+    "links": {
+      "self": "/company/06470842",
+      "filing_history": "/company/06470842/filing-history",
+      "officers": "/company/06470842/officers",
+      "charges": "/company/06470842/charges",
+      "persons_with_significant_control": "/company/06470842/persons-with-significant-control"
+    },
+    "registered_office_is_in_dispute": false,
+    "can_file": true
+  }
+  
