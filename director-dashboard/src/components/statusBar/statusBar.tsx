@@ -14,7 +14,7 @@ class StatusBar extends React.Component<IProps, IState> {
     render() { 
         return ( 
                 <div className={styles.statusBar}>
-                    <h1 className={styles.pageName}> Personal Page - Director</h1>
+                    <h1 className={styles.pageName}> Personal Page - Director Obligations</h1>
                 </div>
          );
     }
