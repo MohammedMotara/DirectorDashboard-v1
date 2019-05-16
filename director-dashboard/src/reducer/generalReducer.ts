@@ -33,6 +33,9 @@ const initialState: IGeneralState = {
 };
 
 
+
+
+
 const generalReducer = (state = initialState, action: IGeneralActions) => {
   switch (action.type) {
     case OPEN_DROPDOWN:
