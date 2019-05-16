@@ -8,4 +8,31 @@
     margin-top: $base-margin *1.5;
     margin-left: $component-side-margin;
     box-shadow: $uniform-box-shadow;
+
+    .duties {
+        // border: red solid 1px;
+        width: 90%;
+        height: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+
+        .dutiesTitle {
+            font-family: $heading-font;
+            font-weight: $section-heading-weight;
+            font-size: 20px;
+            color: $secondary-color;
+        }
+
+        .section176{
+            font-family: $heading-font;
+            font-weight: $section-heading-weight;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+
+        .dummyData {
+            margin-top: 10px;
+        }
+    }
 }
